@@ -1,5 +1,15 @@
 # memory-bandwidth-benchmark
 
+## Requirements
+You will need `git`, `build-essential` (for gcc/make), and `numactl`
+
+Ubuntu:
+```
+sudo apt install git build-essential numactl
+```
+
+## Run
+
 All you need to run is:
 ```
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/mgoin/memory-bandwidth-benchmark/main/benchmark.sh)"
